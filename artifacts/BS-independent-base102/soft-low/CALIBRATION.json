@@ -1,0 +1,96 @@
+{
+  "backbone_sha256": "7556870309ce21dfffd2ce1755ec150d27950d7ac66798c2cd239e3a805f23f6",
+  "checkpoint": "ckpt_000500.pt",
+  "checkpoint_sha256": "5548baadbe12b9e1f3724a2658e54cd82ff4d92678ff8619c388e1a7230f38a3",
+  "elapsed_seconds": 8.829878082993673,
+  "estimator": "soft",
+  "evaluation": {
+    "calibrated": true,
+    "decoder_tv": 0.01842686647243879,
+    "decoders": {
+      "ar": {
+        "basin_masses": [
+          0.06307657068344157,
+          0.06364369488364471,
+          0.06311456085760854,
+          0.06331737194013409,
+          0.06374769913625683,
+          0.0640724917313335,
+          0.06345951512187856,
+          0.06329691264994737
+        ],
+        "basin_total": 0.5077288170042451,
+        "conditional_entropy": 0.0,
+        "minimum_basin": 0.06307657068344157,
+        "reward": 0.06292308956355261,
+        "terminal_entropy": 7.834394114972426,
+        "tv_prior": 0.019483298974527323,
+        "underflow_terminals": 0
+      },
+      "random": {
+        "basin_masses": [
+          0.06335543007841696,
+          0.063468551460511,
+          0.06302870529089083,
+          0.06286905575428925,
+          0.06337897754731989,
+          0.0631832468591068,
+          0.0632231396462304,
+          0.06342515576547722
+        ],
+        "basin_total": 0.5059322624022424,
+        "conditional_entropy": 6.578109647079518,
+        "minimum_basin": 0.06286905575428925,
+        "reward": 0.06324966260989884,
+        "terminal_entropy": 7.837858958826145,
+        "tv_prior": 0.008325087711169049,
+        "underflow_terminals": 0
+      }
+    },
+    "denoising": {
+      "cross_entropy": 7.8364532449316,
+      "cross_entropy_minus_teacher_entropy": 0.0014193508095230456,
+      "excess_kl": 0.0014193508093563539,
+      "level_cross_entropy": [
+        1.3862962459987265,
+        1.364368661692903,
+        1.3307619242230504,
+        1.293444236559028,
+        1.2539282843187731,
+        1.2076538921391196
+      ],
+      "level_excess_kl": [
+        1.8848788361225388e-06,
+        1.301594579667146e-05,
+        8.634994238511682e-05,
+        0.00023683994372019864,
+        0.0006025240045418968,
+        0.00047873609407634763
+      ],
+      "per_word_excess": 0.00023655846822605897,
+      "teacher_entropy": 7.835033894122077
+    },
+    "evaluation_probability_law": "CPU64 softmax of device32 logits; no terminal renormalization",
+    "evaluation_seconds": 0.3542820419825148,
+    "step": 500
+  },
+  "factory_sha256": "52ce9a82d36aaf15446ec0d0c8f93e608b8e31bc946ecd9c85c5eb65d7b18180",
+  "final_resources": {
+    "disk_free_bytes": 20302520320,
+    "mps_allocated_bytes": 17510656,
+    "pressure_level": 1,
+    "rss_bytes": 580550656,
+    "swap_bytes": 2014775869.44
+  },
+  "kind": "soft",
+  "optimizer_steps": 500,
+  "parent_sha256": "8187df987b35ee56195baec4e2e506256388e018148316ca922481da22ff356d",
+  "recipe_hash": "6361cfddf75ae8deb99a346664bd82dcac12c4d49268faa0dbee7b98ea914f09",
+  "samples": 3200000,
+  "seed": 102,
+  "source_hash": "e288a7f23a29957048b5c48a695a8a70019b003a56579af68abff17befbb7fab",
+  "stage": "soft-low",
+  "status": "calibrated",
+  "step": 500,
+  "total_training_steps": 12500
+}
