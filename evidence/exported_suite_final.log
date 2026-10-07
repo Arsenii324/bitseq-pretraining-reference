@@ -1,0 +1,23 @@
+.......................                                       [100%]
+=============================== warnings summary ===============================
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_evaluator.py::test_graph_teacher_and_task_truth_are_independent_and_complete
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_evaluator.py::test_graph_teacher_and_task_truth_are_independent_and_complete
+  /Users/a2mogus/build-projs/ccm-intro/projects/unified-bench/.venv-procgen/lib/python3.11/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_evaluator.py::test_model_cache_and_native_enumeration_check_actual_probability_law
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_independent_base_recipe_neural.py::test_hard_soft_tail_checkpoint_replay_matches_literal_loop
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_pretraining_lifecycle.py::test_pretraining_is_literal_masked_nelbo_and_random_masks_are_valid
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_pretraining_lifecycle.py::test_actual_pretraining_cpu_mps_gradients_and_initialization_rng
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_pretraining_lifecycle.py::test_atomic_checkpoint_rejects_overwrite_mismatch_and_reproduces_cpu_updates
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_pretraining_lifecycle.py::test_json_manifest_and_driver_smoke_are_identity_checked
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_soft_pretraining.py::test_soft_labels_equal_exhaustive_hard_label_expectation_at_one_context
+  /Users/a2mogus/build-projs/gflownet-dllm/research/bitseq_mps/pretraining_package/source/src/tdlm/model.py:43: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+    self.enc = nn.TransformerEncoder(layer, num_layers=n_layers)
+
+research/bitseq_mps/pretraining_package/source/research/bitseq_mps/tests/test_evaluator.py::test_model_cache_and_native_enumeration_check_actual_probability_law
+  /Users/a2mogus/build-projs/gflownet-dllm/research/bitseq_mps/pretraining_package/vendor/gfn/env.py:568: UserWarning: Overriding DiscreteEnv defaults: sf.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+23 passed, 10 warnings, 11 subtests passed in 7.01s

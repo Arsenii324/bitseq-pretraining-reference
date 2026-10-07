@@ -1,0 +1,61 @@
+........................................................................ [ 32%]
+............................................. [ 52%]
+.................................................................. [ 82%]
+......................................                                   [100%]
+=============================== warnings summary ===============================
+tests/test_elbo_identity.py: 5 warnings
+tests/test_exact_logp.py: 6 warnings
+tests/test_experiment_reproducibility.py: 1 warning
+tests/test_rl_objectives.py: 5 warnings
+tests/test_sampler.py: 4 warnings
+research/bitseq_mps/tests/test_calibration_continuation.py: 2 warnings
+research/bitseq_mps/tests/test_campaign.py: 1 warning
+research/bitseq_mps/tests/test_driver_resume.py: 3 warnings
+research/bitseq_mps/tests/test_evaluator.py: 1 warning
+research/bitseq_mps/tests/test_fixed80_neural_admission.py: 7 warnings
+research/bitseq_mps/tests/test_fixed80_state.py: 3 warnings
+research/bitseq_mps/tests/test_independent_base_recipe_neural.py: 1 warning
+research/bitseq_mps/tests/test_marginal_neural_admission.py: 3 warnings
+research/bitseq_mps/tests/test_mask_control_driver.py: 1 warning
+research/bitseq_mps/tests/test_mask_control_neural.py: 4 warnings
+research/bitseq_mps/tests/test_mask_moments.py: 3 warnings
+research/bitseq_mps/tests/test_mask_trained_mps_gates.py: 1 warning
+research/bitseq_mps/tests/test_model_policy.py: 8 warnings
+research/bitseq_mps/tests/test_pretraining_lifecycle.py: 4 warnings
+research/bitseq_mps/tests/test_rl_lifecycle.py: 19 warnings
+research/bitseq_mps/tests/test_soft_pretraining.py: 1 warning
+research/bitseq_mps/tests/test_storage_budget.py: 2 warnings
+research/bitseq_mps/tests/test_updates.py: 9 warnings
+  /Users/a2mogus/build-projs/gflownet-dllm/tests/../src/tdlm/model.py:43: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+    self.enc = nn.TransformerEncoder(layer, num_layers=n_layers)
+
+tests/test_rl_objectives.py::test_R4_learned_z_head_recovers_the_optimum
+  /Users/a2mogus/build-projs/gflownet-dllm/tests/test_rl_objectives.py:140: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+  Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:823.)
+    assert float(loss) < 1e-3, float(loss)
+
+research/bitseq_mps/tests/test_calibration_continuation.py::test_soft_continuation_preserves_parent_and_tracks_actual_updates
+research/bitseq_mps/tests/test_calibration_continuation.py::test_soft_continuation_preserves_parent_and_tracks_actual_updates
+  /Users/a2mogus/build-projs/ccm-intro/projects/unified-bench/.venv-procgen/lib/python3.11/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+research/bitseq_mps/tests/test_campaign.py: 1 warning
+research/bitseq_mps/tests/test_driver_resume.py: 3 warnings
+research/bitseq_mps/tests/test_evaluator.py: 1 warning
+research/bitseq_mps/tests/test_fixed80_neural_admission.py: 3 warnings
+research/bitseq_mps/tests/test_fixed80_state.py: 3 warnings
+research/bitseq_mps/tests/test_marginal_neural_admission.py: 3 warnings
+research/bitseq_mps/tests/test_mask_control_driver.py: 1 warning
+research/bitseq_mps/tests/test_mask_control_neural.py: 4 warnings
+research/bitseq_mps/tests/test_mask_trained_mps_gates.py: 11 warnings
+research/bitseq_mps/tests/test_model_policy.py: 6 warnings
+research/bitseq_mps/tests/test_original_tb.py: 2 warnings
+research/bitseq_mps/tests/test_rl_lifecycle.py: 19 warnings
+research/bitseq_mps/tests/test_storage_budget.py: 2 warnings
+research/bitseq_mps/tests/test_updates.py: 2 warnings
+research/bitseq_mps/tests/test_upstream_environment.py: 4 warnings
+  /Users/a2mogus/build-projs/gflownet-dllm/research/bitseq_mps/.deps/gfn/env.py:568: UserWarning: Overriding DiscreteEnv defaults: sf.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+221 passed, 162 warnings, 33 subtests passed in 82.22s (0:01:22)

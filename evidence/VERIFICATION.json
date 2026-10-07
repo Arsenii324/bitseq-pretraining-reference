@@ -1,0 +1,221 @@
+{
+  "files_verified": 298,
+  "source_archives": 12,
+  "framework_python_files": 72,
+  "neural": {
+    "device": "cpu",
+    "torch": "2.13.0",
+    "numpy": "1.26.4",
+    "lineage": [
+      {
+        "directory": "BS-base100",
+        "adam_clock": 6000,
+        "ancestral_updates": 6000
+      },
+      {
+        "directory": "BS-calibration-diagnostic/hard-high",
+        "adam_clock": 8000,
+        "ancestral_updates": 8000
+      },
+      {
+        "directory": "BS-calibration-diagnostic/hard-low",
+        "adam_clock": 10000,
+        "ancestral_updates": 8000
+      },
+      {
+        "directory": "BS-calibration-diagnostic/soft-high",
+        "adam_clock": 12000,
+        "ancestral_updates": 8000
+      },
+      {
+        "directory": "BS-calibration-diagnostic/soft-low",
+        "adam_clock": 14000,
+        "ancestral_updates": 8000
+      },
+      {
+        "directory": "BS-soft-extension-1",
+        "adam_clock": 16000,
+        "ancestral_updates": 12000
+      },
+      {
+        "directory": "BS-soft-tail-1",
+        "adam_clock": 16500,
+        "ancestral_updates": 12500
+      },
+      {
+        "directory": "BS-independent-base101/hard",
+        "adam_clock": 6000,
+        "ancestral_updates": 6000
+      },
+      {
+        "directory": "BS-independent-base101/soft-high",
+        "adam_clock": 12000,
+        "ancestral_updates": 12000
+      },
+      {
+        "directory": "BS-independent-base101/soft-low",
+        "adam_clock": 12500,
+        "ancestral_updates": 12500
+      },
+      {
+        "directory": "BS-independent-base102/hard",
+        "adam_clock": 6000,
+        "ancestral_updates": 6000
+      },
+      {
+        "directory": "BS-independent-base102/soft-high",
+        "adam_clock": 12000,
+        "ancestral_updates": 12000
+      },
+      {
+        "directory": "BS-independent-base102/soft-low",
+        "adam_clock": 12500,
+        "ancestral_updates": 12500
+      }
+    ],
+    "accepted_weights": [
+      {
+        "seed": 100,
+        "calibrated": true,
+        "logword_table_max_error": 3.1595994172128883e-06,
+        "scalar_max_error": 1.3625549044604668e-07,
+        "terminal_mass_max_error": 2.2014691198474212e-09,
+        "decoders": {
+          "ar": {
+            "reward": 0.06302252319790447,
+            "tv_prior": 0.018341484551781716,
+            "minimum_basin": 0.06270320527598422,
+            "basin_total": 0.5069701431344995,
+            "terminal_entropy": 7.8357999639710805,
+            "conditional_entropy": 0.0,
+            "basin_masses": [
+              0.06357845660271691,
+              0.06322696702255423,
+              0.06270320527598422,
+              0.06302433212689665,
+              0.06352635101423637,
+              0.06307545438443922,
+              0.064271215872198,
+              0.06356416083547393
+            ]
+          },
+          "random": {
+            "reward": 0.06338623784410785,
+            "tv_prior": 0.007462034590237698,
+            "minimum_basin": 0.06292300486287951,
+            "basin_total": 0.5064396121312557,
+            "terminal_entropy": 7.836421043293772,
+            "conditional_entropy": 6.578311131912074,
+            "basin_masses": [
+              0.06369088867711088,
+              0.06292300486287951,
+              0.06301786229462085,
+              0.06317030286980503,
+              0.06338281046456198,
+              0.0631656391818526,
+              0.06375834750475837,
+              0.06333075627566642
+            ]
+          }
+        },
+        "decoder_tv": 0.017090142666346564,
+        "per_word_excess": 0.00019225462812232815
+      },
+      {
+        "seed": 101,
+        "calibrated": true,
+        "logword_table_max_error": 3.426738254486139e-06,
+        "scalar_max_error": 8.955080765815637e-08,
+        "terminal_mass_max_error": 3.0169132001628407e-09,
+        "decoders": {
+          "ar": {
+            "reward": 0.0627744497159961,
+            "tv_prior": 0.01763677842904859,
+            "minimum_basin": 0.06261816041364085,
+            "basin_total": 0.50619023302787,
+            "terminal_entropy": 7.83712989975775,
+            "conditional_entropy": 0.0,
+            "basin_masses": [
+              0.06340010913111022,
+              0.06292374365780477,
+              0.06351254939048416,
+              0.06368357704570682,
+              0.06398450672596505,
+              0.06311760917564942,
+              0.06294997748750877,
+              0.06261816041364085
+            ]
+          },
+          "random": {
+            "reward": 0.06320559264037132,
+            "tv_prior": 0.00674441611436322,
+            "minimum_basin": 0.0629624561159156,
+            "basin_total": 0.5060260390711231,
+            "terminal_entropy": 7.837467353385389,
+            "conditional_entropy": 6.578367823897309,
+            "basin_masses": [
+              0.06337995546301105,
+              0.06307076314941801,
+              0.06336848521651106,
+              0.06352797730534626,
+              0.06324289039980777,
+              0.0629624561159156,
+              0.06329365434968938,
+              0.06317985707142393
+            ]
+          }
+        },
+        "decoder_tv": 0.016484411218711283,
+        "per_word_excess": 0.00017653453887198786
+      },
+      {
+        "seed": 102,
+        "calibrated": true,
+        "logword_table_max_error": 2.8905255733402413e-06,
+        "scalar_max_error": 9.51820675609838e-08,
+        "terminal_mass_max_error": 1.802356248623016e-09,
+        "decoders": {
+          "ar": {
+            "reward": 0.06292308374009158,
+            "tv_prior": 0.019483293683672666,
+            "minimum_basin": 0.06307657294041875,
+            "basin_total": 0.5077287823787451,
+            "terminal_entropy": 7.8343941980937,
+            "conditional_entropy": 0.0,
+            "basin_masses": [
+              0.06307657294041875,
+              0.0636436853203471,
+              0.06311455000626545,
+              0.06331737811239971,
+              0.06374768591017058,
+              0.0640724805831728,
+              0.06345951023844988,
+              0.06329691926752082
+            ]
+          },
+          "random": {
+            "reward": 0.06324965555104678,
+            "tv_prior": 0.008325087818746251,
+            "minimum_basin": 0.06286905218520791,
+            "basin_total": 0.5059322223246459,
+            "terminal_entropy": 7.837859054008213,
+            "conditional_entropy": 6.578109647516391,
+            "basin_masses": [
+              0.06335543421430483,
+              0.063468543383827,
+              0.06302869544828887,
+              0.06286905218520791,
+              0.0633789702302569,
+              0.06318323945991296,
+              0.06322313870204437,
+              0.063425148700803
+            ]
+          }
+        },
+        "decoder_tv": 0.01842686301204812,
+        "per_word_excess": 0.00023655844956089884
+      }
+    ],
+    "known_issue": "seed100:12500 ancestral updates, Adam16500; not repaired"
+  }
+}

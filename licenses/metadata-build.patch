@@ -1,0 +1,6 @@
+--- upstream/pyproject.toml
++++ local-build/pyproject.toml
+@@ -5,2 +5,3 @@
+ [project]
+ name = "torchgfn"
++dynamic = ["version"]

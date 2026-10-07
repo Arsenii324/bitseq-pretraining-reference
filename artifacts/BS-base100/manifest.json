@@ -1,0 +1,48 @@
+{
+  "config": {
+    "batch": 256,
+    "clip": 1.0,
+    "device": "mps",
+    "eval_every": 500,
+    "lr": 0.0006,
+    "schema": "BS-pretrain-v1.3",
+    "seed": 100,
+    "steps": 6000,
+    "stop_on_calibration": true,
+    "target_alpha": 12,
+    "weight_decay": 0.0
+  },
+  "config_hash": "e759c00438d5c09b41b996908b8e0f7cb7a248fb607b918965c0aaeca6931724",
+  "initial_resources": {
+    "disk_free_bytes": 25996943360,
+    "mps_allocated_bytes": 0,
+    "pressure_level": 1,
+    "rss_bytes": 341475328,
+    "swap_bytes": 2715161722.88
+  },
+  "numpy": "1.26.4",
+  "pid": 44618,
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "python": "3.11.0",
+  "source": {
+    "files": {
+      ".repos/JustGRPO/grpo.py": "e5358667b058d61993257f48bfc67e69ec2520a8b57a01205ffa45f709617a5e",
+      "research/bitseq_mps/bitseq/__init__.py": "001fef0129087af1c386790b5ed7d238199336dd86a01b3749b2f10593742ce2",
+      "research/bitseq_mps/bitseq/artifacts.py": "30b08fb217e473c66e2e8e3d52135596c1c1b3b354218881330764205c95618d",
+      "research/bitseq_mps/bitseq/env.py": "b5fb9bfe08a8df059569b986d8cde293363d6e4f9f054f764f16269607cace5b",
+      "research/bitseq_mps/bitseq/evaluate.py": "454f3e5d14c83daac59a30089d08a3eab7a474d93d134585aa67aa245cf86143",
+      "research/bitseq_mps/bitseq/model.py": "52ce9a82d36aaf15446ec0d0c8f93e608b8e31bc946ecd9c85c5eb65d7b18180",
+      "research/bitseq_mps/bitseq/objectives.py": "aacb56cdb6ef5f0aca6e4371f44efd0813e2948ed8a01451eea0bb2a72c81d82",
+      "research/bitseq_mps/bitseq/oracle.py": "26dfc4c2c8655e58ff7ca2640457f962a62082223c42fe3208301998231efd16",
+      "research/bitseq_mps/bitseq/policy.py": "fab27b41caa461e7ea3538bbdf2904fdec4ca6bd1575028d8b197d0a800e893a",
+      "research/bitseq_mps/bitseq/run.py": "772b73afd076b8398509e26ebcf574ae8632e7e54193d38eb281c9cfd3aa7515",
+      "research/bitseq_mps/bitseq/train.py": "6b8310890643b6ed3f346394213573fd2db6a20249e7e953814db0ba586c00cf",
+      "research/bitseq_mps/setup_manifest.json": "2ba9445dd5394cbf1c4902c86af81482c6198a8611e6b834840d45a37eed024a",
+      "src/tdlm/mdm.py": "377e692ad42f821fcee86e5f34105745ac563273cd761e3801101e0afaf2c6c6",
+      "src/tdlm/model.py": "7556870309ce21dfffd2ce1755ec150d27950d7ac66798c2cd239e3a805f23f6"
+    },
+    "hash": "c2ee3f10c0443bfddd66ebcc75f515d49be58c52788ec2c8c0a17e23ca39a560"
+  },
+  "start_utc": "2026-10-06T20:01:01Z",
+  "torch": "2.13.0"
+}

@@ -1,0 +1,10 @@
+{
+  "known_credential_pattern_hits": [],
+  "scan_excludes": [
+    "tensor checkpoints",
+    ".npz arrays"
+  ],
+  "not_universal_secret_detection": true,
+  "license_source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+}

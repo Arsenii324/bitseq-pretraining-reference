@@ -1,0 +1,27 @@
+{
+  "source/research/bitseq_mps/tests/test_evaluator.py": {
+    "origin": "research/bitseq_mps/tests/test_evaluator.py",
+    "sha256": "d5fa7b96e2583d0f722901c03893bdcd2bd3284c166b93e548954fd1f8b9a9bc",
+    "role": "packaging-time validation copy; not part of original training source ZIP"
+  },
+  "source/research/bitseq_mps/tests/test_soft_pretraining.py": {
+    "origin": "research/bitseq_mps/tests/test_soft_pretraining.py",
+    "sha256": "ce2e50c4426ec582e63b91425a3706c8ac507101a1dd18230ffafc983f21d91e",
+    "role": "packaging-time validation copy; not part of original training source ZIP"
+  },
+  "source/research/bitseq_mps/tests/test_pretraining_lifecycle.py": {
+    "origin": "research/bitseq_mps/tests/test_pretraining_lifecycle.py",
+    "sha256": "f2e05864d691abe57aee0908e54a65a56b67341124fb37646e2d1757be8c9bee",
+    "role": "packaging-time validation copy; not part of original training source ZIP"
+  },
+  "source/research/bitseq_mps/tests/test_independent_base_recipe_static.py": {
+    "origin": "research/bitseq_mps/tests/test_independent_base_recipe_static.py",
+    "sha256": "8fed3cf54844d321a0320474c61dffa95fdec6fac5feb3f0c247626128bcf709",
+    "role": "packaging-time validation copy; not part of original training source ZIP"
+  },
+  "source/research/bitseq_mps/tests/test_independent_base_recipe_neural.py": {
+    "origin": "research/bitseq_mps/tests/test_independent_base_recipe_neural.py",
+    "sha256": "9f3e7dca777053953a6ba1dbdfe933ff26822a52e93e3b346b47f44c8f7a1b4f",
+    "role": "packaging-time validation copy; not part of original training source ZIP"
+  }
+}
