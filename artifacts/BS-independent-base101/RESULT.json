@@ -1,0 +1,98 @@
+{
+  "backbone_sha256": "7556870309ce21dfffd2ce1755ec150d27950d7ac66798c2cd239e3a805f23f6",
+  "campaign_storage_bytes": 1912808071,
+  "checkpoint": "ckpt_000500.pt",
+  "checkpoint_sha256": "1a18eb5d190c820593072fdcf8649cb179ed66b54b654d39d31f82ac08f44d79",
+  "elapsed_seconds": 8.636496249993797,
+  "estimator": "soft",
+  "evaluation": {
+    "calibrated": true,
+    "decoder_tv": 0.016484410053469505,
+    "decoders": {
+      "ar": {
+        "basin_masses": [
+          0.06340010876324495,
+          0.06292374466142323,
+          0.06351256896648834,
+          0.06368357259932117,
+          0.06398451237837022,
+          0.06311760728029045,
+          0.06294998665524591,
+          0.06261816737179536
+        ],
+        "basin_total": 0.5061902686761797,
+        "conditional_entropy": 0.0,
+        "minimum_basin": 0.06261816737179536,
+        "reward": 0.06277445786714955,
+        "terminal_entropy": 7.837129813514524,
+        "tv_prior": 0.017636774721173403,
+        "underflow_terminals": 0
+      },
+      "random": {
+        "basin_masses": [
+          0.06337995895792746,
+          0.06307077411993997,
+          0.06336849659541817,
+          0.06352797355598211,
+          0.06324289785361845,
+          0.06296244989871318,
+          0.0632936634562443,
+          0.06317986286793136
+        ],
+        "basin_total": 0.506026077305775,
+        "conditional_entropy": 6.578367823770314,
+        "minimum_basin": 0.06296244989871318,
+        "reward": 0.06320560046224566,
+        "terminal_entropy": 7.837467263834581,
+        "tv_prior": 0.006744411958776005,
+        "underflow_terminals": 0
+      }
+    },
+    "denoising": {
+      "cross_entropy": 7.836093101166217,
+      "cross_entropy_minus_teacher_entropy": 0.0010592070441397539,
+      "excess_kl": 0.001059207043968544,
+      "level_cross_entropy": [
+        1.3862957213268863,
+        1.3643655419158263,
+        1.3307421797046186,
+        1.293386518181146,
+        1.2538153692792682,
+        1.2074877707584717
+      ],
+      "level_excess_kl": [
+        1.3602069961482228e-06,
+        9.896168720253122e-06,
+        6.660542395356829e-05,
+        0.00017912156583932081,
+        0.0004896089650333863,
+        0.0003126147134258672
+      ],
+      "per_word_excess": 0.00017653450732809067,
+      "teacher_entropy": 7.835033894122077
+    },
+    "evaluation_probability_law": "CPU64 softmax of device32 logits; no terminal renormalization",
+    "evaluation_seconds": 0.34273716699681245,
+    "step": 500
+  },
+  "factory_sha256": "52ce9a82d36aaf15446ec0d0c8f93e608b8e31bc946ecd9c85c5eb65d7b18180",
+  "final_directory": "/Users/a2mogus/build-projs/gflownet-dllm/research/bitseq_mps/runs/BS-independent-base101/soft-low",
+  "final_resources": {
+    "disk_free_bytes": 20346175488,
+    "mps_allocated_bytes": 17510656,
+    "pressure_level": 1,
+    "rss_bytes": 570523648,
+    "swap_bytes": 2014775869.44
+  },
+  "kind": "soft",
+  "optimizer_steps": 500,
+  "parent_sha256": "b87881230b128fd7de6a8c34468c12a2e9160d7a67bdeff917b0797d94f62eb1",
+  "recipe_hash": "25317f53ab9ab31b26c6eb2af88806a107fb3f62071ef4667c498078c8472b42",
+  "samples": 3200000,
+  "seed": 101,
+  "source_hash": "e288a7f23a29957048b5c48a695a8a70019b003a56579af68abff17befbb7fab",
+  "stage": "soft-low",
+  "status": "calibrated",
+  "step": 500,
+  "total_training_steps": 12500
+}

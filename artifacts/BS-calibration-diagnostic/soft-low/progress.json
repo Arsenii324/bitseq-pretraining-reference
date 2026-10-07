@@ -1,0 +1,84 @@
+{
+  "arm": "soft-low",
+  "clipping_fraction": 0.0,
+  "elapsed_seconds": 35.34297837500344,
+  "estimator": "soft",
+  "evaluation": {
+    "calibrated": false,
+    "decoder_tv": 0.05778794634126229,
+    "decoders": {
+      "ar": {
+        "basin_masses": [
+          0.06181280143437627,
+          0.0644141937560382,
+          0.060561330986849155,
+          0.06179596706408186,
+          0.06029820726454015,
+          0.05781174762248611,
+          0.062263257290989346,
+          0.057461809446959056
+        ],
+        "basin_total": 0.4864193148663202,
+        "conditional_entropy": 0.0,
+        "minimum_basin": 0.057461809446959056,
+        "reward": 0.06561180634172237,
+        "terminal_entropy": 7.856752911403962,
+        "tv_prior": 0.0776184192447266,
+        "underflow_terminals": 0
+      },
+      "random": {
+        "basin_masses": [
+          0.0634672964886902,
+          0.06093363193747159,
+          0.059844534970424364,
+          0.06129584052098527,
+          0.06001269879124511,
+          0.06087271938578784,
+          0.060342912864378845,
+          0.06010838098453899
+        ],
+        "basin_total": 0.4868780159435222,
+        "conditional_entropy": 6.566798531249233,
+        "minimum_basin": 0.059844534970424364,
+        "reward": 0.06525515349769354,
+        "terminal_entropy": 7.869959883460876,
+        "tv_prior": 0.053768282681507504,
+        "underflow_terminals": 0
+      }
+    },
+    "denoising": {
+      "cross_entropy": 7.858344043029075,
+      "cross_entropy_minus_teacher_entropy": 0.02331014890699823,
+      "excess_kl": 0.023310148906836484,
+      "level_cross_entropy": [
+        1.386314927606278,
+        1.36486592508219,
+        1.3325810349026508,
+        1.2966950919945708,
+        1.2590689828253536,
+        1.218818080618032
+      ],
+      "level_excess_kl": [
+        2.0566486387670665e-05,
+        0.0005102793350837974,
+        0.001905460621986139,
+        0.003487695379261177,
+        0.0057432225111269195,
+        0.011642924572990779
+      ],
+      "per_word_excess": 0.0038850248178060806,
+      "teacher_entropy": 7.835033894122077
+    },
+    "evaluation_probability_law": "CPU64 softmax of device32 logits; no terminal renormalization",
+    "evaluation_seconds": 0.3057203750067856,
+    "step": 2000
+  },
+  "first_primary_eligible_step": null,
+  "lr": 6e-05,
+  "mean_preclip_norm": 0.20805397800356148,
+  "optimizer_steps": 2000,
+  "parent_training_steps": 6000,
+  "samples": 512000,
+  "source_hash": "86cbfdaafe7fc855d92e246dbdd5b2f9dca8c8106e5b0839f3f09d1fb4d816de",
+  "step": 2000
+}
