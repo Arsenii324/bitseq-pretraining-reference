@@ -10,8 +10,8 @@
       "bytes": 6772
     },
     "PRETRAIN_CARD_RU.md": {
-      "sha256": "2f5e273749e6f618bba5f4dfc2e6597e0af248815cb1f7d7afd17db6df5fbdbf",
-      "bytes": 24864
+      "sha256": "a1619825ba112a32e76561468f3b9c4df35ca3348a3d6c38b4afec757649d3e1",
+      "bytes": 26646
     },
     "README.md": {
       "sha256": "7d45e7b3138b157821320e98e60acc9aa402d594b2f8bcdfedb237a4e7ca866b",
@@ -716,6 +716,10 @@
     "evidence/PRETRAIN_PACKAGE_REVIEW.md": {
       "sha256": "d91dbaab87723c2b742ea0a2468c3748640c3dca28ecf07a6b0534b20b36d964",
       "bytes": 6046
+    },
+    "evidence/PRETRAIN_TIMING.json": {
+      "sha256": "758ef0dd714a2ef32261cf45e9bfadf922e8437a082248b5f08d0dab1c7237b7",
+      "bytes": 3376
     },
     "evidence/VALIDATION_SCOPE.md": {
       "sha256": "0423905d6d3c9320d66ab6500c126b79300bd64caa1d380d5e2b433db503e67e",

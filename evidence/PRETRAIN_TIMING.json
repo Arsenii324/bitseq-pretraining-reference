@@ -1,0 +1,84 @@
+{
+  "schema": "bitseq-pretrain-timing-recap-v1",
+  "stage_rows": [
+    {
+      "stage": "BS-base100",
+      "source_path": "artifacts/BS-base100/progress.json",
+      "sha256": "ae91a49d9c7901c115e6ea040b0e940286478aa175ce8cdf26dc586e775dfb81",
+      "elapsed_seconds": 95.94922762498027,
+      "stage_updates": 6000
+    },
+    {
+      "stage": "BS-soft-extension-1",
+      "source_path": "artifacts/BS-soft-extension-1/progress.json",
+      "sha256": "8fcac98a4391286376334fc0942194a9361fd230b6443d15614b3febd4517ff9",
+      "elapsed_seconds": 65.2291939589777,
+      "stage_updates": 4000
+    },
+    {
+      "stage": "BS-soft-tail-1",
+      "source_path": "artifacts/BS-soft-tail-1/progress.json",
+      "sha256": "2801f4f414f9b9d67e695fa1fa8f5662e77a2d36a577878c8adee414d5c65b42",
+      "elapsed_seconds": 8.527492958004586,
+      "stage_updates": 500
+    },
+    {
+      "stage": "BS-independent-base101/hard",
+      "source_path": "artifacts/BS-independent-base101/hard/progress.json",
+      "sha256": "987cbe6c61fdcfd5ab81573552efed06f3f2f31405d9ddeda8143486666255c6",
+      "elapsed_seconds": 82.7868779579876,
+      "stage_updates": 6000
+    },
+    {
+      "stage": "BS-independent-base101/soft-high",
+      "source_path": "artifacts/BS-independent-base101/soft-high/progress.json",
+      "sha256": "58fa3a691b425d3dfa611b86e52c8d21f1d508e4781de568ed1f3301dbd7e152",
+      "elapsed_seconds": 100.6914994159888,
+      "stage_updates": 6000
+    },
+    {
+      "stage": "BS-independent-base101/soft-low",
+      "source_path": "artifacts/BS-independent-base101/soft-low/progress.json",
+      "sha256": "ed1682cdd4e7d022635f91d15c1ca6441f50a3f6d4885b179e8466d61e2bbe44",
+      "elapsed_seconds": 8.636496249993797,
+      "stage_updates": 500
+    },
+    {
+      "stage": "BS-independent-base102/hard",
+      "source_path": "artifacts/BS-independent-base102/hard/progress.json",
+      "sha256": "4a6df10a529fe83bd3b55efff0a762012459fd2ec7731e32a8c64556e52f9737",
+      "elapsed_seconds": 83.1769333340053,
+      "stage_updates": 6000
+    },
+    {
+      "stage": "BS-independent-base102/soft-high",
+      "source_path": "artifacts/BS-independent-base102/soft-high/progress.json",
+      "sha256": "c6f542ecdfe40c88c137b20ef101e9ebd9c4acdadbc4bd333eef2888988de5ca",
+      "elapsed_seconds": 101.68918525002664,
+      "stage_updates": 6000
+    },
+    {
+      "stage": "BS-independent-base102/soft-low",
+      "source_path": "artifacts/BS-independent-base102/soft-low/progress.json",
+      "sha256": "48f7f05999ac84650b0e1d71d51b3842e45359020fe1efe4ffa93e3c625fc769",
+      "elapsed_seconds": 8.829878082993673,
+      "stage_updates": 500
+    }
+  ],
+  "diagnostic_source_path": "artifacts/BS-calibration-diagnostic/results.json",
+  "diagnostic_source_sha256": "617bc87f84404edde5b6b940495eaa579025383b2fe1b07ecd8da887af8e6481",
+  "diagnostic_elapsed_seconds": {
+    "hard-high": 30.127082833001623,
+    "hard-low": 30.522273875016253,
+    "soft-high": 34.70055741700344,
+    "soft-low": 35.34297837500344
+  },
+  "accepted_ancestry_seconds": {
+    "101": 192.1148736239702,
+    "102": 193.6959966670256,
+    "100": 204.406471958966
+  },
+  "all100_stage_seconds": 300.3988070419873,
+  "all_three_stage_seconds": 686.2096773329831,
+  "scope": "sum of recorded stage elapsed_seconds, not end-to-end process time; excludes interstage pauses/some setup/separate smoke-audit checks/RL"
+}
