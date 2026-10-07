@@ -6,20 +6,20 @@
       "bytes": 42
     },
     "ASSESSMENT_RU.md": {
-      "sha256": "cef3f81e9bb5727d6792b745f0121a1866711b49c223d2b2cb3f0c6712655173",
-      "bytes": 6772
+      "sha256": "7c88f78ea20aa768f2a357ebf54f500c5297775de933de8790d91fff437b0559",
+      "bytes": 13921
     },
     "PRETRAIN_CARD_RU.md": {
-      "sha256": "a1619825ba112a32e76561468f3b9c4df35ca3348a3d6c38b4afec757649d3e1",
-      "bytes": 26646
+      "sha256": "3a50fc51f907630db0730f779082a83aef7f8e3ae9ab1c68d6a965270c4e9b10",
+      "bytes": 50260
     },
     "README.md": {
-      "sha256": "7d45e7b3138b157821320e98e60acc9aa402d594b2f8bcdfedb237a4e7ca866b",
-      "bytes": 4248
+      "sha256": "164cd1f77dd54f624678ec69fa539620e9ee263f206fb23e5627828eb7752bd3",
+      "bytes": 7002
     },
     "REPRODUCE_RU.md": {
-      "sha256": "a55bc1cb3669770fac4782e3ad4e1be280f9b24027cf238fec2843fd9bfa011b",
-      "bytes": 9419
+      "sha256": "3ca29458f499e52abecd0e4d081ed0489201f5fc51d73558d8d894aa7094d152",
+      "bytes": 14218
     },
     "artifacts/BS-base100/ckpt_006000.pt": {
       "sha256": "380bcbaba6954279b1e7a8fa83b84ae527a62cb00bf693d3a627b4a4540f5e66",
@@ -708,6 +708,10 @@
     "evidence/EXPORT_SAFETY_CHECK.json": {
       "sha256": "9424f6cad1c32fb5c4eda05444598ea7ab1708e3dc77df163e9aaa193255cd04",
       "bytes": 313
+    },
+    "evidence/PRETRAIN_METRICS.json": {
+      "sha256": "95900aa55b91309ee87eabe9d7ea33bd78a85bec7f74fe83adaf49315ad2eedf",
+      "bytes": 7932
     },
     "evidence/PRETRAIN_OPTIMIZER_LINEAGE_REVIEW.md": {
       "sha256": "6c72e2101f35c855e2f8f58617b853a3e610bdf31ab687eddb21c80ee1c14ea8",
